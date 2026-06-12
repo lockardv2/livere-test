@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head><meta charset="utf-8"><title>LiveRe Test</title></head>
+<body>
+  <h1>LiveRe 테스트 페이지</h1>
+  <p>테스트입니다. 1 2 3 4</p>
+
+  <div id="lv-container" data-id="city" data-uid="ok60qI4XVyU8xmw3he4U"></div>
+  <script>
+    (function(d, s) {
+      var j, e = d.getElementsByTagName(s)[0];
+      if (typeof LivereTower === 'function') { return; }
+      j = d.createElement(s); j.async = true;
+      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
+      e.parentNode.insertBefore(j, e);
+    })(document, 'script');
+  </script>
+</body>
+</html>
