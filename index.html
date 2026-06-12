@@ -4,16 +4,7 @@
 <body>
   <h1>LiveRe 테스트 페이지</h1>
   <p>테스트입니다. 1 2 3 4</p>
-
-  <div id="lv-container" data-id="city" data-uid="ok60qI4XVyU8xmw3he4U"></div>
-  <script>
-    (function(d, s) {
-      var j, e = d.getElementsByTagName(s)[0];
-      if (typeof LivereTower === 'function') { return; }
-      j = d.createElement(s); j.async = true;
-      j.src = 'https://cdn-city.livere.com/js/embed.dist.js';
-      e.parentNode.insertBefore(j, e);
-    })(document, 'script');
-  </script>
+  <livere-comment client-id="ok60qI4XVyU8xmw3he4U" style="display:block;width:100%;padding:16px;overflow:hidden"></livere-comment>
+  <script type="module" src="https://www.livere.org/livere-widget.js"></script>
 </body>
-</html>
+  </html>
